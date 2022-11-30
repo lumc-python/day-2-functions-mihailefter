@@ -45,4 +45,4 @@ def kmer_counts(dna_string, k=3):
 # Use the function to print k-mer counts for some strings.
 counts = kmer_counts(dna_seq)
 for kmer in counts:
-    print('{0} occurs {1} time(s)'.format(kmer, counts[kmer]))
+    print(f'{kmer} occurs {counts[kmer]} time(s)')
